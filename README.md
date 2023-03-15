@@ -4,19 +4,20 @@
 Code to compress and decompress data using LZ Compression.
 
 ## How to Run
-1. Navigate to the program directory.
-2. Run "make" to create all binaries, or "make EXEC" where EXEC is the binary you would like to create.
-3. Run ./encode [OPTIONS] to compress your file. Then, uncompress files with ./decode [OPTIONS]
+1. Navigate to the program directory /bin folder, or create the binaries yourself using "make".
+2. Run ./encode [OPTIONS] to compress your file. Then, uncompress files with ./decode [OPTIONS]
 
 ## Command Line Options: Encode
 -v : Print compression statistics to stderr.  
 -i <input> : Specify input to compress (stdin by default)  
 -o <output> : Specify output of compressed input (stdout by default)  
+-h : Print details on how to run the binary.
 
 ## Command Line Options: Decode
 -v : Print decompression statistics to stderr.  
 -i <input> : Specify input to decompress (stdin by default)  
 -o <output> : Specify output of decompressed input (stdout by default)  
+-h : Print details on how to run the binary.
 
 ## Example
 To showcase all binaries in a simple test
