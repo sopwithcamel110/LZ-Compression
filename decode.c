@@ -88,10 +88,10 @@ int main(int argc, char **argv) {
   if (verbose) {
     int compSize = total_bits / 8;
     int uncompSize = total_syms;
-    printf("Compressed file size: %d bytes\n", compSize);
-    printf("Uncompressed file size: %d bytes\n", uncompSize);
-    printf("Compression ratio: %.2f%%\n",
-           100 - ((double)compSize * 100 / (double)uncompSize));
+    fprintf(stderr, "Compressed file size: %d bytes\n", compSize);
+    fprintf(stderr, "Uncompressed file size: %d bytes\n", uncompSize);
+    fprintf(stderr, "Compression ratio: %.2f%%\n",
+            100 - ((double)compSize * 100 / (double)uncompSize));
   }
 
   wt_delete(table);
