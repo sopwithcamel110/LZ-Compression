@@ -8,8 +8,8 @@
 typedef struct TrieNode TrieNode;
 
 struct TrieNode {
-    TrieNode *children[ALPHABET];
-    uint16_t code;
+  TrieNode *children[ALPHABET];
+  uint16_t code;
 };
 
 /*

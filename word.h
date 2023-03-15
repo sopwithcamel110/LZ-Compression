@@ -4,8 +4,8 @@
 #include <stdint.h>
 
 typedef struct Word {
-    uint8_t *syms;
-    uint32_t len;
+  uint8_t *syms;
+  uint32_t len;
 } Word;
 
 typedef Word *WordTable;
