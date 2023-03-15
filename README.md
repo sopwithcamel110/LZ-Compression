@@ -1,10 +1,10 @@
-# Assignment 6: Lempel-Ziv Compression
+# Lempel-Ziv Compression
 
 ## Description
-A showcase of Lempel-Ziv Compression
+Code to compress and decompress data using LZ Compression.
 
 ## How to Run
-1. Navigate to the program directory, /ddevise/asgn6/.
+1. Navigate to the program directory.
 2. Run "make" to create all binaries, or "make EXEC" where EXEC is the binary you would like to create.
 3. Run ./encode [OPTIONS] to compress your file. Then, uncompress files with ./decode [OPTIONS]
 
